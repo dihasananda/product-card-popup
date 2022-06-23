@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Search</title>
+   <link rel="icon" type="image/svg" href="favicon.svg">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="./js/search.js" defer></script>
+
+</head>
+<body>
+   
+<div class="container">
+
+   <h3 class="title" onclick="location = 'index.html'"> Tokoku </h3>
+   <form action="search.html">
+      <div class="search">
+         <input type="text" class="searchTerm" placeholder="What are you looking for?" name="q" id="searchTerm">
+         <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+         </button>
+      </div>
+   </form>
+   <h3 id="search-count"></h3>
+   <div class="products-container" id="products-container">
+   </div>
+
+</div>
+
+</body>
+</html>
